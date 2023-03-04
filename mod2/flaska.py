@@ -35,14 +35,19 @@ def add(date,number):
         return "Неправильная дата"
 @app.route('/calculate/<int:year>')
 def calculateYear(year):
-    sumS=0
-    for month in salarys[year]:
-        sumS+=salarys[year][month]
-    return f"{sumS} денег на  {year} год"
+    try:
+        sumS=0
+        for month in salarys[year]:
+            sumS+=salarys[year][month]
+        return f"{sumS} денег на  {year} год"
+    except:
+        return "Такого года нет"
 @app.route('/calculate/<int:year>/<int:month>')
 def calculateMonth(year,month):
-
-    return f"{str(salarys[year][month])} денег на {months[month-1]} {year} года"
+    try:
+        return f"{str(salarys[year][month])} денег на {months[month-1]} {year} года"
+    except:
+        return "Такого месяца нет"
 
 if __name__ == '__main__':
     app.run(debug=True)
