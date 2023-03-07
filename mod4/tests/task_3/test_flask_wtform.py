@@ -1,5 +1,5 @@
 import unittest
-from flask_wtform import app
+from task_1_2.flask_wtform import app
 
 
 class TestFlaskWtform(unittest.TestCase):

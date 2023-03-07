@@ -22,4 +22,4 @@ class TestAddCalculate(unittest.TestCase):
         self.assertTrue(self.person.get_address()=="Visotsky")
 
     def test_is_homeless(self):
-        self.assertTrue(self.person.is_homeless()==Falsee)
+        self.assertTrue(self.person.is_homeless()==False)
