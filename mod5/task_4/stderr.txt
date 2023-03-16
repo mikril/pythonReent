@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/kostya/Рабочий стол/pythonReent/mod5/task_4/Redirect.py", line 34, in <module>
+    raise Exception('Hello stderr.txt')
+Exception: Hello stderr.txt
