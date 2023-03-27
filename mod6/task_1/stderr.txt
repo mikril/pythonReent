@@ -1,0 +1,116 @@
+18:27:13; | INFO;Started divider server
+18:27:13; | INFO;[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+18:27:13; | INFO;[33mPress CTRL+C to quit[0m
+18:27:13; | INFO; * Restarting with stat
+18:27:14; | INFO;Started divider server
+18:27:14; | WARNING; * Debugger is active!
+18:27:14; | INFO; * Debugger PIN: 808-107-941
+18:27:21; | ERROR;We are unable to divide by zero!
+Traceback (most recent call last):
+  File "/home/kostya/Рабочий стол/pythonReent/mod6/venv/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/kostya/Рабочий стол/pythonReent/mod6/venv/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/kostya/Рабочий стол/pythonReent/mod6/task_1/logger.py", line 23, in divide
+    return f"a / b = {a / b:2f}"
+ZeroDivisionError: division by zero
+18:27:21; | INFO;127.0.0.1 - - [26/Mar/2023 18:27:21] "[31m[1mPOST /divide/ HTTP/1.1[0m" 400 -
+19:30:15; | INFO;Started divider server
+19:30:15; | INFO;[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+19:30:15; | INFO;[33mPress CTRL+C to quit[0m
+19:30:15; | INFO; * Restarting with stat
+19:30:16; | INFO;Started divider server
+19:30:16; | WARNING; * Debugger is active!
+19:30:16; | INFO; * Debugger PIN: 808-107-941
+19:30:35; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:30:35; | INFO; * Restarting with stat
+19:30:35; | INFO;Started divider server
+19:30:35; | WARNING; * Debugger is active!
+19:30:35; | INFO; * Debugger PIN: 808-107-941
+19:31:06; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:31:06; | INFO; * Restarting with stat
+19:31:06; | INFO;Started divider server
+19:31:06; | WARNING; * Debugger is active!
+19:31:06; | INFO; * Debugger PIN: 808-107-941
+19:31:24; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:31:24; | INFO; * Restarting with stat
+19:31:25; | INFO;Started divider server
+19:31:25; | WARNING; * Debugger is active!
+19:31:25; | INFO; * Debugger PIN: 808-107-941
+19:31:47; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:31:47; | INFO; * Restarting with stat
+19:31:47; | INFO;Started divider server
+19:31:47; | WARNING; * Debugger is active!
+19:31:47; | INFO; * Debugger PIN: 808-107-941
+19:33:43; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:33:43; | INFO; * Restarting with stat
+19:33:43; | INFO;Started divider server
+19:33:43; | WARNING; * Debugger is active!
+19:33:43; | INFO; * Debugger PIN: 808-107-941
+19:33:52; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:33:52; | INFO; * Restarting with stat
+19:33:52; | INFO;Started divider server
+19:33:52; | WARNING; * Debugger is active!
+19:33:52; | INFO; * Debugger PIN: 808-107-941
+19:33:59; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:33:59; | INFO; * Restarting with stat
+19:33:59; | INFO;Started divider server
+19:33:59; | WARNING; * Debugger is active!
+19:33:59; | INFO; * Debugger PIN: 808-107-941
+19:34:14; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:34:14; | INFO; * Restarting with stat
+19:34:15; | INFO;Started divider server
+19:34:15; | WARNING; * Debugger is active!
+19:34:15; | INFO; * Debugger PIN: 808-107-941
+19:34:43; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:34:43; | INFO; * Restarting with stat
+19:34:43; | INFO;Started divider server
+19:34:43; | WARNING; * Debugger is active!
+19:34:43; | INFO; * Debugger PIN: 808-107-941
+19:35:05; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:35:05; | INFO; * Restarting with stat
+19:35:05; | INFO;Started divider server
+19:35:05; | WARNING; * Debugger is active!
+19:35:05; | INFO; * Debugger PIN: 808-107-941
+19:38:23; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:38:23; | INFO; * Restarting with stat
+19:38:23; | INFO;Started divider server
+19:38:23; | WARNING; * Debugger is active!
+19:38:23; | INFO; * Debugger PIN: 808-107-941
+19:38:32; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:38:32; | INFO; * Restarting with stat
+19:38:32; | INFO;Started divider server
+19:38:32; | WARNING; * Debugger is active!
+19:38:32; | INFO; * Debugger PIN: 808-107-941
+19:38:36; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:38:36; | INFO; * Restarting with stat
+19:38:36; | INFO;Started divider server
+19:38:36; | WARNING; * Debugger is active!
+19:38:36; | INFO; * Debugger PIN: 808-107-941
+19:39:45; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:39:45; | INFO; * Restarting with stat
+19:39:45; | INFO;Started divider server
+19:39:45; | WARNING; * Debugger is active!
+19:39:45; | INFO; * Debugger PIN: 808-107-941
+19:41:28; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:41:28; | INFO; * Restarting with stat
+19:41:29; | INFO;Started divider server
+19:41:29; | WARNING; * Debugger is active!
+19:41:29; | INFO; * Debugger PIN: 808-107-941
+19:41:42; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:41:42; | INFO; * Restarting with stat
+19:41:42; | INFO;Started divider server
+19:41:42; | WARNING; * Debugger is active!
+19:41:42; | INFO; * Debugger PIN: 808-107-941
+19:42:21; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:42:21; | INFO; * Restarting with stat
+19:42:21; | INFO;Started divider server
+19:42:21; | WARNING; * Debugger is active!
+19:42:21; | INFO; * Debugger PIN: 808-107-941
+19:42:31; | INFO; * Detected change in '/home/kostya/Рабочий стол/pythonReent/mod6/task_2/strongPassword.py', reloading
+19:42:31; | INFO; * Restarting with stat
+19:42:32; | INFO;Started divider server
+19:42:32; | WARNING; * Debugger is active!
+19:42:32; | INFO; * Debugger PIN: 808-107-941

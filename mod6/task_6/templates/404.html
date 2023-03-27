@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница не найдена</title>
+</head>
+<body>
+    <h1>Страница не найдена</h1>
+    <p>К сожалению, запрашиваемая вами страница не найдена на сервере.</p>
+    <p>Пожалуйста, выберите одну из доступных страниц:</p>
+    <ul>
+        {% for page in pages %}
+            <li><a href="{{ page.url }}">{{ page.name }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
