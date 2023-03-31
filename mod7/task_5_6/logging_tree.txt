@@ -1,0 +1,12 @@
+<--""
+   Level WARNING
+   |
+   o<--"module_logger"
+       Level INFO
+       Handler TimedRotatingFile '/home/kostya/Рабочий стол/pythonReent/mod7/task_5_6/utils.log' when='S' interval=10 backupCount=1
+         Level INFO
+         Filter <logging_config.ASCIIFilter object at 0x7fbc860c3c40>
+         Formatter fmt="'%(levelname)s | %(name)s | %(asctime)s | %(lineno)d | %(message)s'" datefmt=None
+       |
+       o<--"module_logger.util"
+           Level NOTSET so inherits level INFO
