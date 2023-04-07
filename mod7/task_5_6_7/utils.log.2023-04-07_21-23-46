@@ -1,0 +1,2 @@
+'WARNING | module_logger.app | 2023-04-07 21:23:46,381 | 24 | Warning message'
+'CRITICAL | module_logger.app | 2023-04-07 21:23:46,382 | 25 | critical message'

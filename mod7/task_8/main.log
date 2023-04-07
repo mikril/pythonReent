@@ -1,0 +1,4 @@
+WARNING | module_logger.app | 2023-04-07 21:44:50,971 | 20 | Warning message
+CRITICAL | module_logger.app | 2023-04-07 21:44:50,991 | 21 | critical message
+INFO | module_logger.app | 2023-04-07 21:44:50,992 | 22 | ÎŒØ∏‡°⁄·n°€йцукен0
+ERROR | module_logger.util | 2023-04-07 21:45:01,727 | 28 | Некорректный выбор операции
